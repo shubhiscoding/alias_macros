@@ -2,7 +2,7 @@
 
 A powerful Rust procedural macro crate that allows you to create aliases for types, keywords, and even complex syntax patterns. Make Rust syntax your own by creating custom aliases for anything!
 
-<!-- [![Crates.io](https://img.shields.io/crates/v/alias_macros.svg)](https://crates.io/crates/alias_macros) -->
+[![Crates.io](https://img.shields.io/crates/v/alias_macros.svg)](https://crates.io/crates/alias_macros)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## 🚀 Features
@@ -296,8 +296,8 @@ at your option.
 ## 🔗 Links
 
 - [Repository](https://github.com/shubhiscoding/alias_macros)
-<!-- - [Documentation](https://docs.rs/alias_macros) -->
-<!-- - [Crates.io](https://crates.io/crates/alias_macros) -->
+- [Documentation](https://docs.rs/alias_macros)
+- [Crates.io](https://crates.io/crates/alias_macros)
 
 ---
 

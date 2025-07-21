@@ -2,6 +2,12 @@
 
 This directory contains the procedural macro implementation for the `alias_macros` crate.
 
+## About Alias Macros
+
+`alias_macros` is a Rust procedural macro crate that allows you to create custom aliases for types, keywords, and complex syntax patterns. Create TypeScript-like interfaces, alias primitive types with descriptive names, or build domain-specific syntax - all with zero runtime cost!
+
+📚 **For complete usage examples, features, and documentation, see the [main README](../README.md).**
+
 ## Structure
 
 - `src/lib.rs` - Contains the `define!` procedural macro implementation
