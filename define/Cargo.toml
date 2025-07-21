@@ -2,6 +2,15 @@
 name = "alias_macros"
 version = "0.1.0"
 edition = "2024"
+authors = ["Shubh kesharwani084@gmail.com"]
+description = "A alias macro for Rust - create alias for everything...!"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/shubhiscoding/alias_macros"
+homepage = "https://github.com/shubhiscoding/alias_macros"
+documentation = "https://github.com/shubhiscoding/alias_macros/blob/main/README.md"
+keywords = ["macro", "alias", "define", "procedural", "syntax"]
+categories = ["development-tools", "rust-patterns"]
+readme = "README.md"
 
 [lib]
 proc-macro = true

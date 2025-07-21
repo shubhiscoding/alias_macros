@@ -24,6 +24,7 @@ pub fn define(input: TokenStream) -> TokenStream {
     let expand = quote! {
         macro_rules! #alias {
             () => { #replacement };
+            ($($tokens:tt)*) => { #replacement $($tokens)* };
         }
     };
     expand.into()
