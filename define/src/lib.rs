@@ -1,7 +1,7 @@
 use proc_macro::TokenStream;
 use quote::quote;
-use syn::{parse_macro_input, Token, Ident};
 use proc_macro2::TokenStream as TokenStream2;
+use syn::{parse_macro_input, Token, Ident};
 
 struct DefineInput {
     alias: Ident,
@@ -24,7 +24,6 @@ pub fn define(input: TokenStream) -> TokenStream {
     let expand = quote! {
         macro_rules! #alias {
             () => { #replacement };
-            ($($args:tt)*) => { #replacement!($($args)*) };
         }
     };
     expand.into()
