@@ -1,6 +1,6 @@
 [package]
 name = "alias_macros"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Shubh kesharwani084@gmail.com"]
 description = "A alias macro for Rust - create alias for everything...!"

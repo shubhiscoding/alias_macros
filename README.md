@@ -19,7 +19,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-alias_macros = "0.1.0"
+alias_macros = "0.1.1"
 ```
 
 Or use cargo to add it:
